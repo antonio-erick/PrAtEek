@@ -1,0 +1,741 @@
+@font-face {
+	font-family: champagne;
+	src: url('../fonts/Champagne & Limousines Bold.ttf');
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(136, 136, 60);
+}
+
+body.hiddenContent {
+	overflow: hidden;
+}
+
+.cont {
+	width: 100%;
+	height: 100%;
+}
+
+/* LANDING PAGE */
+
+.firstPageCont {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+
+.back {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.monitor {
+	position: absolute;
+	right: -15%;
+	top: 2%;
+	-webkit-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+	transform: rotate(10deg);
+	-webkit-transition: right 0.5s;
+	-moz-transition: right 0.5s;
+	transition: right 0.5s;
+}
+
+.monitor.init {
+	right: -100%;
+}
+
+.keyboard {
+	position: absolute;
+	bottom: 7%;
+	right: -3%;
+	-webkit-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+	transform: rotate(10deg);
+	-webkit-transition: right 1s;
+	-moz-transition: right 1s;
+	transition: right 1s;
+}
+
+.keyboard.init {
+	right: -100%;
+}
+
+.earphone {
+	position: absolute;
+	left: -3%;
+	-webkit-transform: rotate(100deg);
+	-moz-transform: rotate(100deg);
+	transform: rotate(100deg);
+	-webkit-transition: left 1s;
+	-moz-transition: left 1s;
+	transition: left 1s;
+}
+
+.earphone.init {
+	left: -100%;
+}
+
+.docs {
+	position: absolute;
+	top: -45%;
+	left: -10%;
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+	transform: rotate(30deg);
+	-webkit-transition: left 0.5s;
+	-moz-transition: left 0.5s;
+	transition: left 0.5s;
+}
+
+.docs.init {
+	left: -100%;
+}
+
+.title {
+	position: absolute;
+	color: white;
+	font-family: champagne;
+	top: 20%;
+	width: 100%;
+	text-align: center;
+}
+
+.mainTitle {
+	font-size: 11em;
+	display: block;
+	text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.subTitle {
+	font-size: 2em;
+	display: block;
+	color: rgba(0,0,0,0.3);
+	margin-top: -10px;
+}
+
+.scrollDown {
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	color: white;
+	font-family: champagne;
+	font-size: 1.5em;
+}
+
+/* EDUCATION PAGE */
+
+.secondPageCont {
+	position: relative;
+	height: 100%;
+	padding: 0px 20px;
+	padding-top: 20%;
+}
+
+.college {
+	width: 50%;
+	display: inline-block;
+	position: absolute;
+	top: 20%;
+	text-align: center;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.college img {
+	width: 50%;
+}
+
+.pageName {
+	font-family: champagne;
+	font-size: 1.5em;
+	color: rgb(174, 169, 154);
+	padding: 10px;
+	-webkit-transition: all 0.2s;
+}
+
+.pageName .pageNameText{
+	font-size: 2em;
+}
+
+.details {
+	width: 40%;
+	display: inline-block;
+	height: 90%;
+	position: absolute;
+	left: 55%;
+	top: 5%;
+	font-family: champagne;
+	background-color:  rgb(230,230,230);
+	border-radius: 5px;
+	border: 15px solid rgba(0,0,0,0.3);
+}
+
+.aCourse {
+	width: 100%;
+	padding: 0px 30px;
+	margin-top: 10%;
+	overflow: hidden;
+}
+
+.details .courseName {
+	font-size: 1.5em;
+	margin-bottom: 5px;
+	color: rgba(0,0,0,0.7);
+}
+
+.schoolName, .major, .marks, .year {
+	color: rgb(115, 115, 115);
+	padding: 2px 0px;
+	font-size: 1em;
+}
+
+.aCourse .text {
+	display: inline-block;
+	width: 70%;
+	position: relative;
+}
+
+.aCourse .text.left {
+	text-align: left;
+	-webkit-transition: all 0.5s;
+}
+
+.aCourse .text.right {
+	text-align: right;
+	-webkit-transition: all 0.5s;
+}
+
+.aCourse .image {
+	display: inline-block;
+	width: 28%;
+	position: relative;
+}
+
+.aCourse .image img {
+	width: 80%;
+}
+
+/* SKILLS PAGE */
+
+.thirdPageCont {
+	position: relative;
+	height: 100%;
+	text-align: center;
+	padding: 2% 0px;
+	overflow: hidden;
+}
+
+.skillsTop {
+	height: 60%;
+	position: relative;
+	padding: 20px 0px 5% 0px;
+}
+
+.skillsTop img {
+	height: 70%;
+	width: auto;
+}
+
+.skillsTitle {
+	padding: 20px 0px;
+	font-size: 4em;
+	font-family: champagne;
+	color: white;
+}
+
+.skillsBottom {
+	height: 40%;
+	text-align: center;
+}
+
+.skillset {
+	width: 20%;
+	height: 100%;
+	display: inline-block;
+	margin: 0px 5%;
+	position: relative;
+}
+
+.skillset .backSkillset {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(31, 122, 31);
+}
+
+.skillset .foreSkillset {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(191, 255, 128);
+}
+
+.skill1 .backSkillset {
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	transform: rotate(5deg);
+}
+
+.skill1 .foreSkillset {
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+}
+
+.skill2 .backSkillset {
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+}
+
+.skill2 .foreSkillset {
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	transform: rotate(5deg);
+}
+
+.skill3 .backSkillset {
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+	transform: rotate(5deg);
+}
+
+.skill3 .foreSkillset {
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+}
+
+.pin {
+	width: 50px;
+	position: absolute;
+	z-index: 5;
+	top: -10%;
+}
+
+.pinHole {
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	z-index: 4;
+	top: 7%;
+	left: 49%;
+}
+
+.skillTitle {
+	font-family: champagne;
+	font-weight: bold;
+	color: rgb(25,77,51);
+	font-size: 2em;
+	margin: 10% 0px 5% 0px;
+}
+
+.skillDetails {
+	font-family: champagne;
+	font-size: 1.2em;
+	padding: 5px 0px;
+	color: rgba(0,77,102,0.8);
+}
+
+/* PROJECTS PAGE */
+
+.fourthPageCont {
+	position: relative;
+	height: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+
+.screen {
+	display: inline-block;
+	width: 80%;
+	height: 90%;
+	position: absolute;
+	top: 5%;
+	left: 10%;
+	border-radius: 10px 10px 0px 0px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	overflow: hidden;
+}
+
+.topbar {
+	width: 100%;
+	height: 40px;
+	background-color: rgb(71,107,107);
+	border-radius: 10px 10px 0px 0px;
+	text-align: left;
+	padding: 0px 20px;
+}
+
+.topbar .circle {
+	width: 15px;
+	height: 15px;
+	border-radius: 10px;
+	background-color: white;
+	display: inline-block;
+	margin-right: 5px;
+	margin-top: 12.5px;
+}
+
+.topbar .circle.circle1 {
+	background-color: rgb(255,77,77);
+}
+
+.topbar .circle.circle2 {
+	background-color: rgb(204,255,51);
+}
+
+.topbar .circle.circle3 {
+	background-color: rgb(92,214,92);
+}
+
+.topbarTitle {
+	color: white;
+	font-family: champagne;
+	display: inline-block;
+	padding: 0px 30px;
+}
+
+.tab {
+	width: 100%;
+	height: 30px;
+	background-color: rgba(190,190,190,1);
+	padding: 5px 0px 0px 15px;
+	text-align: left;
+}
+
+.tab .aTab {
+	border: 1px solid rgb(148,148,148);
+	border-bottom: none;
+	height: 100%;
+	font-family: champagne;
+	font-size: 0.8em;
+	padding: 5px 20px;
+	border-radius: 5px 5px 0px 0px;
+	display: inline-block;
+	text-align: center;
+}
+
+.aTab.active {
+	background-color: rgb(224, 235, 235);
+	width: 20%;
+}
+
+.aTab.nonActive {
+	width: auto;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.linkField {
+	background-color: rgb(224, 235, 235);
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid rgb(148,148,148);
+	text-align: left;
+	padding: 10px 10px;
+}
+
+.linkField img {
+	height: 100%;
+	margin-right: 15px;
+}
+
+.linkField .locationBar {
+	width: 80%;
+	display: inline-block;
+	background-color: white;
+	height: 100%;
+	margin-left: 10px;
+	padding: 2px 20px;
+	font-family: champagne;
+	font-size: 0.7em;
+}
+
+.nextSlide {
+	position: absolute;
+	right: 0px;
+	display: inline-block;
+	width: 10%;
+	text-align: center;
+	height: 100%;
+}
+
+.previousSlide {
+	position: absolute;
+	left: 0px;
+	display: inline-block;
+	width: 10%;
+	text-align: center;
+	height: 100%;
+	-webkit-transition: opacity 0.3s;
+	-moz-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.nextSlide img, .previousSlide img {
+	position: absolute;
+	top: 45%;
+	left: 35%;
+	width: 30%;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	transition: all 0.2s;
+	cursor: pointer;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.previousSlide img:hover {
+	width: 40%;
+	top: 44%;
+}
+
+.nextSlide img:hover {
+	width: 40%;
+	top: 44%;
+}
+
+.contentLoc {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.projectContent {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	-webkit-transition: left 0.4s;
+	-moz-transition: left 0.4s;
+	transition: left 0.4s;
+}
+
+.projectContent.activeSlide {
+	left: 0%;
+}
+
+.projectContent.leftSlide {
+	left: 100%;
+}
+
+.projectContent.rightSlide {
+	left: -100%;
+}
+
+.projectContent img {
+	width: 100%;
+}
+
+.projectContent .overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(0,0,0,0.9);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	opacity: 0;
+	text-align: center;
+}
+
+.overlay img {
+	width: 70px;
+}
+
+.overlay:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+
+.overlayContent {
+	position: absolute;
+	top: 30%;
+	width: 100%;
+	color: #e3e3e3;
+	font-family: champagne;
+	font-size: 1.4em;
+}
+
+.overlay .link {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+
+.overlay:hover .link {
+	display: inline-block;
+}
+
+.mobImg {
+	display: none;
+	height: 100%;
+	width: auto;
+}
+
+.mobile {
+	display: none;
+}
+
+.nextSlide.disabled {
+	opacity: 0.2;
+}
+
+.previousSlide.disabled {
+	opacity: 0.2;
+}
+
+/* CONTACT PAGE */
+
+.fifthPageCont {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.contactTop {
+	width: 100%;
+	text-align: center;
+	padding: 10% 0px 2% 0px;
+	position: relative;
+	-webkit-transition: top 0.3s;
+	-moz-transition: top 0.3s;
+	transition: top 0.3s;
+	height: 50%;
+}
+
+.mailImg {
+	position: relative;
+	bottom: 0px;
+	display: inline;
+}
+
+.mailCount {
+	width: 30px;
+	height: 30px;
+	background-color: rgb(204, 0, 0);
+	color: white;
+	border-radius: 5px;
+	font-family: champagne;
+	text-align: center;
+	padding: 5px;
+	display: inline-block;
+	position: absolute;
+	bottom: -7px;
+	right: -7px;
+}
+
+.contactBottom {
+	height: 50%;
+	width: 100%;
+	position: relative;
+}
+
+.links {
+	position: relative;
+	text-align: center;
+	width: 100%;
+	-webkit-transition: top 0.4s;
+	-moz-transition: top 0.4s;
+	transition: top 0.4s;
+}
+
+.links img{
+	width: 50px;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.links a {
+	margin-left: 10px;
+}
+
+.links img:hover {
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+
+/*
+	Footer
+*/
+
+.copyright {
+	position: absolute;
+	bottom: 0px;
+	padding: 5px 10px;
+	color: rgba(255,255,255,0.5);
+	font-family: champagne;
+	font-size: 0.8em;
+}
+
+.copyright a {
+	color: rgba(255,255,255,0.5);
+}
+
+/* LOADING BAR */
+
+.loaderCont {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0, 102, 102);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+	text-align: center;
+	padding: 20% 20px;
+}
+
+.loadingTextCont {
+	font-family: champagne;
+	font-size: 5em;
+	height: 1em;
+	display: inline-block;
+}
+
+.loadingText {
+	height: 100%;
+	display: inline-block;
+	padding: 0px 3px;
+	border-right: 1px solid black;
+	color: rgba(0,0,0,0.6);
+}
+
+.cv {
+	text-decoration: none;
+}
