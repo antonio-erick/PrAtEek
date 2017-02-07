@@ -84,9 +84,10 @@ body.hiddenContent {
 .earphone {
 	position: absolute;
 	left: -3%;
-	-webkit-transform: rotate(100deg);
-	-moz-transform: rotate(100deg);
-	transform: rotate(100deg);
+	top: -5%;
+	-webkit-transform: rotate(21deg);
+	-moz-transform: rotate(21deg);
+	transform: rotate(21deg);
 	-webkit-transition: left 1s;
 	-moz-transition: left 1s;
 	transition: left 1s;
