@@ -2,6 +2,7 @@
 	font-family: champagne;
 	src: url('../fonts/Champagne & Limousines Bold.ttf');
 }
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 
 * {
 	margin: 0px;
@@ -116,7 +117,7 @@ body.hiddenContent {
 .title {
 	position: absolute;
 	color: white;
-	font-family: champagne;
+	font-family: 'Gloria Hallelujah', cursive;
 	top: 20%;
 	width: 100%;
 	text-align: center;
