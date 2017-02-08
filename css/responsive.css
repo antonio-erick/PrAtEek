@@ -3,7 +3,7 @@
 		background-color: rgb(25,77,51);
 	}
 	
-	.monitor, .keyboard, .earphone, .docs {
+	.monitor, .keyboard, .camera, .docs {
 		display: none;
 	}
 
