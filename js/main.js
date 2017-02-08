@@ -40,7 +40,7 @@
     setTimeout(function(){
       document.getElementsByClassName("monitor")[0].className = "monitor";
       document.getElementsByClassName("keyboard")[0].className = "keyboard";
-      document.getElementsByClassName("earphone")[0].className = "earphone";
+      document.getElementsByClassName("camera")[0].className = "camera";
       document.getElementsByClassName("docs")[0].className = "docs";
       enquire.register("screen and (min-width: 1100px)", adjustObj, false);
     }, 300);
