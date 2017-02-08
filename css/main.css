@@ -82,7 +82,7 @@ body.hiddenContent {
 	right: -100%;
 }
 
-.earphone {
+.camera {
 	position: absolute;
 	left: -3%;
 	top: -5%;
@@ -94,7 +94,7 @@ body.hiddenContent {
 	transition: left 1s;
 }
 
-.earphone.init {
+.camera.init {
 	left: -100%;
 }
 
