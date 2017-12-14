@@ -50,7 +50,7 @@
 
   var active = 0,
       elems = document.getElementsByClassName("projectContent"),
-      titleText = ["YouTube Downloader", "Portfolio"],
+      titleText = ["Word Scrapper", "Portfolio","Scrapper Running"],
       activeTab = document.getElementsByClassName("active")[0];
 
   function next(){
