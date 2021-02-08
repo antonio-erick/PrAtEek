@@ -23,6 +23,25 @@
     popup.classList.toggle("show");
 }
     </script>
+    
+<style>html{
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+            }
+            
+            body{
+                width: 100%;
+                height: 100%;
+                overflow-y: scroll;
+                padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+                box-sizing: content-box; /* So the width will be 100% + 17px */
+            }
+            ::-webkit-scrollbar {
+                width: 0px;
+                background: transparent; /* make scrollbar transparent */
+            }
+</style>
   </head>
   <body data-0p = "background-color:rgb(136,136,60);" data-100p = "background-color:rgb(134,45,45);" data-200p = "background-color: rgb(25,77,51);" data-300p = "background-color: rgb(0,77,102)" data-400p = "background-color: rgb(134, 45, 89)" class = "hiddenContent">
 
