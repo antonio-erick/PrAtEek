@@ -7,23 +7,20 @@
     <meta name = "description" content = "Portfolio of Prateek DUbey - Developer, Writer, Student">
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel = "stylesheet" type = "text/css" href = "./css/main.css">
-     <link rel = "stylesheet" type = "text/css" href = "./css/responsive.css">
+    <link rel = "stylesheet" type = "text/css" href = "./css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
     <title> Prateek Dubey | Portfolio </title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8P65YX5PJ3"></script>
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
 
-      ga('create', 'UA-90845728-1', 'auto');
-      ga('send', 'pageview');
-
-      function myFunction() {
-    var popup = document.getElementById("myPopup");
-    popup.classList.toggle("show");
-}
+          gtag('config', 'G-8P65YX5PJ3');
     </script>
-    
 <style>html{
                 width: 100%;
                 height: 100%;
@@ -140,7 +137,7 @@
         <!--<span class = "notice"> This place is booked for the skills I have &nbsp;&nbsp;&nbsp;<span class = "smiley"> :) </span></span>-->
         <div class = "skillsTop" data-0p = "opacity: 0;" data-120p = "opacity: 0" data-200p = "opacity: 1">
           <img src = "./images/programmer.png">
-          <div class = "skillsTitle"> My Skill Set </div>
+          <div class = "skillsTitle" style="font-family: 'Special Elite'"> My Skill Set </div>
         </div>
         <div class = "skillsBottom">
           <div class = "skill1 skillset" data-0p = "left: -50%; opacity: 0;" data-170p = "left: -50%; opacity: 0;" data-200p = "left: 0px; opacity: 1">
@@ -270,16 +267,15 @@
         </div>
         <div class = "contactBottom">
           <div class = "links" data-0p = "top: 200%" data-370p = "top: 200%" data-400p = "top: 20%">
-            <a href = "mailto:prateeklndubey@gmail.com" title = "email: prateeklndubey@gmail.com"><img src = "./images/mail-1.png"></a>
-            <a href = "https://twitter.com/prateiekdubey" target = "_blank" title = "Twitter"><img src = "./images/twitter.png"></a>
-            <a href = "https://github.com/Sh0onya" target = "_blank" title = "GitHub"><img src = "./images/github.png"></a>
-            <a title = "Telephone"><div class="popup" onclick="myFunction()"><img src = "./images/phone.png">
+            <a href = "mailto:prateeklndubey@gmail.com" title = "Send me a mail!"><img src = "./images/gmail.png"></a>
+            <a href = "https://github.com/Sh0onya" target = "_blank" title = "Check out my work!"><img src = "./images/githubx.png"></a>
+            <a title = "Have a chat with me!"><div class="popup" onclick="myFunction()"><img src = "./images/phone.png">
               <span class="popuptext" id="myPopup">Phone: +91-7987590404</span>
             </div></a>
-            <a href = "https://www.linkedin.com/in/pratiekdubey/" target = "_blank" title = "Linkedin"><img src = "./images/linkedin.png"></a>
-            <a href = "https://stackoverflow.com/users/8133604/prateek-dubey" target = "_blank" title = "Stack Overflow"><img src = "./images/stack-overflow.png"></a>
-            <a href = "prateek-cv.pdf" title = "Stack Overflow" target = "_blank"><img src = "./images/cv.png"></a>
-          
+            <a href = "https://www.linkedin.com/in/pratiekdubey/" target = "_blank" title = "Connect with me on Linkedin"><img src = "./images/linkedinx.png"></a>
+            <a href = "prateek-cv.pdf" title = "Read my CV!" target = "_blank"><img src = "./images/cv.png"></a>
+            <!--<a href = "https://stackoverflow.com/users/8133604/prateek-dubey" target = "_blank" title = "Stack Overflow"><img src = "./images/stack-overflow.png"></a>          
+            <a href = "https://twitter.com/prateiekdubey" target = "_blank" title = "Twitter"><img src = "./images/twitter.png"></a>-->
           </div>
         </div>
         <div class = "copyright">
