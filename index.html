@@ -15,6 +15,11 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-8P65YX5PJ3"></script>
     <script>
+
+function phonePop() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+}
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
@@ -269,7 +274,7 @@
           <div class = "links" data-0p = "top: 200%" data-370p = "top: 200%" data-400p = "top: 20%">
             <a href = "mailto:prateeklndubey@gmail.com" title = "Send me a mail!"><img src = "./images/gmail.png"></a>
             <a href = "https://github.com/Sh0onya" target = "_blank" title = "Check out my work!"><img src = "./images/githubx.png"></a>
-            <a title = "Have a chat with me!"><div class="popup" onclick="myFunction()"><img src = "./images/phone.png">
+            <a title = "Have a chat with me!"><div class="popup" onclick="phonePop()"><img src = "./images/phone.png">
               <span class="popuptext" id="myPopup">Phone: +91-7987590404</span>
             </div></a>
             <a href = "https://www.linkedin.com/in/pratiekdubey/" target = "_blank" title = "Connect with me on Linkedin"><img src = "./images/linkedinx.png"></a>
