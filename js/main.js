@@ -50,7 +50,7 @@
 
   var active = 0,
       elems = document.getElementsByClassName("projectContent"),
-      titleText = ["Word Scrapper", "Portfolio","Scrapper Running","SRK Tribute Page","Shaadi Plan", "Shaadi Plan Search","lEdge","lEdge Account","Stic","Stic Subject"],
+      titleText = ["lEdge","lEdge Account","Word Scrapper","GoPerc","Shaadi Plan", "Shaadi Plan Search","Stic","Stic Subject","SRK Tribute Page", "Portfolio"],
       activeTab = document.getElementsByClassName("active")[0];
 
   function next(){
