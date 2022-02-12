@@ -185,6 +185,7 @@ body.hiddenContent {
 .details {
 	width: 40%;
 	display: inline-block;
+	overflow: auto;
 	height: 90%;
 	position: absolute;
 	left: 55%;
@@ -290,6 +291,7 @@ body.hiddenContent {
 
 .skillset .foreSkillset {
 	position: absolute;
+	overflow: auto;
 	width: 100%;
 	height: 100%;
 	background-color: rgb(191, 255, 128);
